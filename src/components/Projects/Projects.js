@@ -34,7 +34,7 @@ function Projects() {
               description="User-friendly website that allows people to freely share various AI prompts, conveniently tag them for easy topic identification, and benefits from an intuitive interface along with a robust search feature to enhance the user experience."
               techStack="Next.js, Auth.js, MongoDB"
               ghLink="https://github.com/Michaelkrs/Promptopia"
-              // demoLink="https://chatify-49.web.app/"
+              demoLink="https://promptopia.michaelkrs.dev"
             />
           </Col>
 
@@ -51,7 +51,7 @@ function Projects() {
               description="Explore cryptocurrencies effortlessly on a modern website featuring a graphical interface designed to help users discover and learn about various digital assets."
               techStack="React, Redux Toolkit, Ant Design"
               ghLink="https://github.com/Michaelkrs/Cryptoverse"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://cryptoverse.michaelkrs.dev"
             />
           </Col>
 
