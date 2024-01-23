@@ -5,7 +5,10 @@ import {
   SiPostman,
   SiFirebase,
   SiIntellijidea,
+  SiGitlab,
+  SiGithub,
 } from "react-icons/si";
+import Github from "./Github";
 
 const ToolIconWithTooltip = ({ icon, text }) => (
   <OverlayTrigger placement="bottom" overlay={<Tooltip>{text}</Tooltip>}>
@@ -22,9 +25,10 @@ function Toolstack() {
         icon={<SiVisualstudiocode />}
         text="Visual Studio Code"
       />
-      <ToolIconWithTooltip icon={<SiPostman />} text="Postman" />
-      <ToolIconWithTooltip icon={<SiFirebase />} text="Firebase" />
       <ToolIconWithTooltip icon={<SiIntellijidea />} text="Intellij IDEA" />
+      <ToolIconWithTooltip icon={<SiPostman />} text="Postman" />
+      <ToolIconWithTooltip icon={<SiGithub />} text="Github" />
+      <ToolIconWithTooltip icon={<SiGitlab />} text="GitLab" />
     </Row>
   );
 }
